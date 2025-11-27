@@ -1,6 +1,8 @@
-<h3 align="center">Azure Solutions Architect | FinOps Practitioner | Cloud & Automation Engineer | Data & AI Engineer</h3>
+<h1 align="left">👋 Hello, I'm Cappo Nelson</h1>
 
-<p align="center">
+<h3 align="left">Azure Solutions Architect | FinOps Practitioner | Cloud & Automation Engineer | Data & AI Engineer</h3>
+
+<p align="left">
 <a href="https://www.linkedin.com/in/capponelson/" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:youremailhere@example.com" target="_blank">
