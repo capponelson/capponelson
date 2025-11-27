@@ -19,7 +19,8 @@ I have also led enterprise FinOps cost-optimization programs, architected cloud 
 
 My credentials include <b>Azure Solutions Architect Expert, Azure Administrator, Security+, IBM Data Science, PL-300, Lean Six Sigma Black Belt, FinOps Practitioner, and a Doctorate in Healthcare Management</b>.
 
-🌍 <b>Open to global relocation</b> — Preferred: Dubai (priority), UK, Germany, France, Canada  
+🌍 Open to global relocation — Preferred: Dubai (priority), UK, Germany, France, Canada  
+
 💼 Open to contract, consulting, and senior roles in <b>cloud engineering, automation architecture, FinOps, data engineering, AI/ML integration, and digital transformation</b>.
 </p>
 
