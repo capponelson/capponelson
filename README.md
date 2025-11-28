@@ -1,4 +1,4 @@
-<h1 align="left">👋 Hello, I'm Cappo Nelson</h1>
+<h1 align="left">👋 Hello, I'm Sam Nelson</h1>
 
 <h3 align="left">Azure Solutions Architect | FinOps Practitioner | Cloud & Automation Engineer | Data & AI Engineer</h3>
 
