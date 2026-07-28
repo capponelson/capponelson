@@ -14,7 +14,7 @@ I'm a <b>Principal Data Scientist and AI Engineer</b> who designs, builds, and <
 
 Most recently I designed, containerized, and deployed an <b>end-to-end production LLM application</b> a real-time dispatch command center featuring a <b>Retrieval-Augmented Generation (RAG)</b> pipeline (OpenAI embeddings + a Chroma vector database), a <b>multi-model AI stack</b> (Anthropic Claude for reasoning, OpenAI for embeddings and voice), <b>prompt engineering with anti-hallucination guardrails</b>, and an <b>LLM evaluation & monitoring</b> pipeline shipped on <b>Docker + Azure Container Apps</b>.
 
-Alongside applied GenAI, I build <b>production predictive models</b> (risk, KPI forecasting, route optimization), <b>enterprise data pipelines</b> processing millions of records daily, and <b>Power BI executive dashboards</b> in Python and SQL, with MLOps practices for model validation, explainability, and monitoring.
+Alongside applied GenAI, I build <b>production predictive models</b> (risk, KPI forecasting, route optimization), <b>enterprise data pipelines</b> processing millions of records daily, and <b>Power BI executive dashboards</b> in Python and SQL, with MLOps practices for model validation, explainability, and monitoring. I also work directly with <b>transformer architectures</b> (RoBERTa fine-tuning) and <b>distributed computing</b> (PySpark at multi-million-row scale) — see the featured repositories below.
 
 🎓 <b>Doctor of Healthcare Management</b> · MS Supply Chain Management · BS Information Technology (Information Assurance & Cybersecurity)<br>
 🌍 Based in Atlanta, GA — open to remote, contract, full time, and senior <b>AI/ML engineering</b> roles.
@@ -22,7 +22,15 @@ Alongside applied GenAI, I build <b>production predictive models</b> (risk, KPI 
 
 ---
 
-## 🚀 Featured Project — AI-Powered Dispatch Command Center
+## 🚀 Featured Projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| [**🚛 AI-Powered Dispatch Command Center**](https://github.com/capponelson/dispatch-command-center) | Production LLM application with RAG, deployed end-to-end on Azure | `Claude` · `OpenAI` · `Chroma` · `Docker` · `Azure` |
+| [**🎫 RoBERTa Ticket Classifier**](https://github.com/capponelson/roberta-ticket-classifier) | Transformer fine-tuning for multi-class classification of operational text | `PyTorch` · `Hugging Face` · `RoBERTa` |
+| [**📦 PySpark Freight Analytics**](https://github.com/capponelson/pyspark-freight-analytics) | Distributed processing of 3M+ records with the Spark DataFrame API | `PySpark` · `Parquet` · `Databricks/Synapse` |
+
+### 🚛 [AI-Powered Dispatch Command Center](https://github.com/capponelson/dispatch-command-center)
 
 A **production LLM application** (Python · Anthropic Claude · Azure), designed and deployed end-to-end:
 
@@ -32,6 +40,26 @@ A **production LLM application** (Python · Anthropic Claude · Azure), designed
 - 🛡️ **Prompt engineering with anti-hallucination guardrails** — answers strictly from retrieved & live data
 - 📦 **Docker + Azure Container Apps** deployment with static-egress networking and scale-to-zero cost control
 - 📈 **Evaluation & monitoring** — automated LLM-as-judge grounding scoring + latency/token/cost logging (grounded accuracy **67% → 83%**)
+
+### 🎫 [RoBERTa Ticket Classifier](https://github.com/capponelson/roberta-ticket-classifier)
+
+**Transformer fine-tuning** (Python · Hugging Face Transformers · PyTorch) — working with the architecture directly, not just calling a hosted API:
+
+- 🔤 **Byte-level BPE tokenization** + attention masks feeding `roberta-base`
+- 🎯 **Fresh classification head** fine-tuned for 5 operational ticket categories
+- 🏋️ **Hugging Face `Trainer`** — dynamic padding, per-epoch eval, best-checkpoint selection on weighted F1
+- 📋 **Per-class precision / recall / F1** reporting, plus a ready inference script
+- 📓 **Colab-ready notebook** — runs end-to-end on a free GPU in minutes
+
+### 📦 [PySpark Freight Analytics](https://github.com/capponelson/pyspark-freight-analytics)
+
+**Distributed data processing** (Python · Apache Spark) over millions of freight records:
+
+- ⚡ **Spark-native generation** of 3M+ shipment rows written as **partitioned Parquet**
+- 📊 **`groupBy` multi-aggregation** carrier scorecards (on-time %, cost-per-mile, avg delay)
+- 🪟 **Window functions** (`row_number`) ranking the best carrier within each lane
+- 🔗 **Broadcast joins** against small reference tables to skip the shuffle
+- ☁️ **Cluster-portable** — the same code runs unchanged on **Databricks** or **Azure Synapse** Spark pools
 
 ---
 
@@ -45,6 +73,18 @@ A **production LLM application** (Python · Anthropic Claude · Azure), designed
 ![](https://img.shields.io/badge/Prompt_Engineering-Guardrails-informational?style=flat&color=orange)
 ![](https://img.shields.io/badge/LLM-Evaluation_%26_Monitoring-informational?style=flat&color=orange)
 ![](https://img.shields.io/badge/Agentic-Workflows-informational?style=flat&color=orange)
+
+### 🔤 Transformers & Deep Learning
+![](https://img.shields.io/badge/%F0%9F%A4%97-Hugging_Face_Transformers-informational?style=flat&color=FFD21E)
+![](https://img.shields.io/badge/PyTorch-informational?style=flat&logo=pytorch&logoColor=white&color=EE4C2C)
+![](https://img.shields.io/badge/RoBERTa-Fine_Tuning-informational?style=flat&color=blueviolet)
+![](https://img.shields.io/badge/Embeddings-Semantic_Search-informational?style=flat&color=blueviolet)
+
+### ⚡ Distributed Computing & Big Data
+![](https://img.shields.io/badge/Apache_Spark-PySpark-informational?style=flat&logo=apachespark&logoColor=white&color=E25A1C)
+![](https://img.shields.io/badge/Databricks-informational?style=flat&logo=databricks&logoColor=white&color=FF3621)
+![](https://img.shields.io/badge/Parquet-Partitioned_I%2FO-informational?style=flat&color=50ABF1)
+![](https://img.shields.io/badge/Window_Functions_%26_Broadcast_Joins-informational?style=flat&color=50ABF1)
 
 ### 🤖 Machine Learning & Data Science
 ![](https://img.shields.io/badge/Python-informational?style=flat&logo=python&logoColor=white&color=3776AB)
@@ -61,6 +101,7 @@ A **production LLM application** (Python · Anthropic Claude · Azure), designed
 ![](https://img.shields.io/badge/Azure-Data_Factory-informational?style=flat&logo=microsoftazure&logoColor=white&color=0078D4)
 ![](https://img.shields.io/badge/Azure-Container_Apps-informational?style=flat&logo=microsoftazure&logoColor=white&color=0078D4)
 ![](https://img.shields.io/badge/Azure-SQL-informational?style=flat&logo=microsoftazure&logoColor=white&color=0078D4)
+![](https://img.shields.io/badge/Azure-Synapse_Spark_Pools-informational?style=flat&logo=microsoftazure&logoColor=white&color=0078D4)
 
 ### 📦 Deployment & DevOps
 ![](https://img.shields.io/badge/Docker-informational?style=flat&logo=docker&logoColor=white&color=2496ED)
